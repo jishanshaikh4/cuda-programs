@@ -18,7 +18,7 @@
 void randomInit(int* data, int size)
 {
 	for (int i = 0; i < size; ++i)
-		data[i] = rand();
+		data[i] = rand_r();
 }
 
 __global__ void ReductionMax2(int *input, int *results, int n)    //take thread divergence into account

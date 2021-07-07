@@ -2,8 +2,7 @@
 
 CUDA Programs for Hadoop/CUDA Lab at MANIT, Bhopal
 
-
-4
+// improve readme
 
 
 
